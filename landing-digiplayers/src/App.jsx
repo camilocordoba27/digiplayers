@@ -8,8 +8,8 @@ import ConventionsSection from "./components/ConventionsSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import PlatformModal from "./components/PlatformModal";
-import { platforms } from "./data/platforms";
-import { conventions } from "./data/conventions";
+import { platforms } from "./data/platforms.js";
+import { conventions } from "./data/conventions.js";
 
 function scrollToId(id) {
   const el = document.getElementById(id);
