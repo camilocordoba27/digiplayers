@@ -10,7 +10,7 @@ import Footer from "./components/Footer.jsx";
 import PlatformModal from "./components/PlatformModal.jsx";
 import { platforms } from "./data/platforms.js";
 import { conventions } from "./data/conventions.js";
-
+//asdasd
 function scrollToId(id) {
   const el = document.getElementById(id);
   if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
