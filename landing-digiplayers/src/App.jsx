@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import "./style.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import AboutSection from "./components/AboutSection";
-import PlatformsSection from "./components/PlatformsSection";
-import ConventionsSection from "./components/ConventionsSection";
-import ContactSection from "./components/ContactSection";
-import Footer from "./components/Footer";
-import PlatformModal from "./components/PlatformModal";
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+import AboutSection from "./components/AboutSection.jsx";
+import PlatformsSection from "./components/PlatformsSection.jsx";
+import ConventionsSection from "./components/ConventionsSection.jsx";
+import ContactSection from "./components/ContactSection.jsx";
+import Footer from "./components/Footer.jsx";
+import PlatformModal from "./components/PlatformModal.jsx";
 import { platforms } from "./data/platforms.js";
 import { conventions } from "./data/conventions.js";
 

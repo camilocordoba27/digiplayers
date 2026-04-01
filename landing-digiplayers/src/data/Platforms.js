@@ -18,7 +18,7 @@ export const platforms = [
     bonus: "Bono destacado (editable)",
     highlights: ["Marca reconocida", "Buena retención", "Creatividades disponibles"],
     payments: ["Tarjetas", "Transferencia", "Mercado Pago"],
-    logo: "img/betsson.png",
+    logo: "img/Betsson.png",
     openUrl: "#",
   },
   {
