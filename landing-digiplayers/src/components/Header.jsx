@@ -5,7 +5,7 @@ export default function Header() {
         <div className="nav">
           <a className="brand" href="#home">
             <span>
-              <img src="img/Digiplayers/Logo vector-06.png" width="160" alt="Digiplayers" />
+              <img src="./public/Logo vector-06.png" width="160" alt="Digiplayers" />
             </span>
           </a>
 
