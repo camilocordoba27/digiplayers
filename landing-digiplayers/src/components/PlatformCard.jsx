@@ -42,7 +42,7 @@ export default function PlatformCard({ platform, onOpenDetails }) {
               Detalles
             </button>
             <a className="btn" href={platform.openUrl} target="_blank" rel="noopener noreferrer">
-              Abrir
+              Registrarse
             </a>
           </div>
         </div>
