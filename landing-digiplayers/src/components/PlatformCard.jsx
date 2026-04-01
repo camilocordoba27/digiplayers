@@ -1,4 +1,4 @@
-import { stars } from "../utils/platforms";
+import { stars } from "../utils/Platforms.js";
 
 export default function PlatformCard({ platform, onOpenDetails }) {
   return (
