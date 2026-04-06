@@ -25,7 +25,7 @@ export default function PlatformModal({ platform, onClose }) {
               {platform.mode === "links" && platform.trackingLinks && (
   <div style={{ marginTop: 20 }}>
     <h3 style={{ fontSize: 14, marginBottom: 10 }}>
-      Elegí una opción para registrarte
+      Elegí la provincia en la que Residís
     </h3>
 
     <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
