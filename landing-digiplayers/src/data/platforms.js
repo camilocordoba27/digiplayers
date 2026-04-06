@@ -9,12 +9,12 @@ export const platforms = [
     payments: ["Transferencia", "Mercado Pago"],
     logo: "img/bplaylogo.png",
     trackingLinks: [
-    { name: "PBA", url: "https://pba.bplay.bet.ar/register?memberid=10212&sourceid=12" },
-    { name: "CABA", url: "https://caba.bplay.bet.ar/register?memberid=59&sourceid=8" },
-    { name: "SANTA FE", url: "https://santafe.bplay.bet.ar/register?memberid=26&sourceid=76881" },
-    { name: "CORDOBA", url: "https://cordoba.bplay.bet.ar/register?memberid=23&sourceid=20" },
-    { name: "MENDOZA", url: "https://mendoza.bplay.bet.ar/es/register?aff=CAMIMZA" },
-  ]
+      { name: "PBA", url: "https://pba.bplay.bet.ar/register?memberid=10212&sourceid=12" },
+      { name: "CABA", url: "https://caba.bplay.bet.ar/register?memberid=59&sourceid=8" },
+      { name: "SANTA FE", url: "https://santafe.bplay.bet.ar/register?memberid=26&sourceid=76881" },
+      { name: "CORDOBA", url: "https://cordoba.bplay.bet.ar/register?memberid=23&sourceid=20" },
+      { name: "MENDOZA", url: "https://mendoza.bplay.bet.ar/es/register?aff=CAMIMZA" },
+    ]
   },
   {
     id: "betsson",
@@ -26,10 +26,10 @@ export const platforms = [
     payments: ["Tarjetas", "Transferencia", "Mercado Pago"],
     logo: "img/Betsson.png",
     trackingLinks: [
-    { name: "PBA", url: "#" },
-    { name: "CABA", url: "#" },
-    { name: "CORDOBA", url: "#" },
-  ]
+      { name: "PBA", url: "#" },
+      { name: "CABA", url: "#" },
+      { name: "CORDOBA", url: "#" },
+    ]
   },
   {
     id: "codere",
@@ -41,9 +41,9 @@ export const platforms = [
     payments: ["Tarjetas", "Transferencia"],
     logo: "img/codere.png",
     trackingLinks: [
-    { name: "CABA", url: "#" },
-    { name: "MENDOZA", url: "#" },
-  ]
+      { name: "CABA", url: "#" },
+      { name: "MENDOZA", url: "#" },
+    ]
   },
   {
     id: "betano",
@@ -55,10 +55,10 @@ export const platforms = [
     payments: ["Transferencia", "Tarjetas", "Mercado Pago"],
     logo: "img/betano.png",
     trackingLinks: [
-    { name: "PBA", url: "#" },
-    { name: "CABA", url: "#" },
-    { name: "MENDOZA", url: "#" },
-  ]
+      { name: "PBA", url: "#" },
+      { name: "CABA", url: "#" },
+      { name: "MENDOZA", url: "#" },
+    ]
   },
   {
     id: "sportsbetar",
@@ -73,9 +73,9 @@ export const platforms = [
     ],
     payments: ["Transferencia", "Tarjetas", "Mercado Pago"],
     logo: "/img/Sportsbet.png",
-     trackingLinks: [
-    { name: "PBA", url: "#" },
-    { name: "MENDOZA", url: "#" },
-  ]
+    trackingLinks: [
+      { name: "PBA", url: "#" },
+      { name: "MENDOZA", url: "#" },
+    ]
   },
 ];
