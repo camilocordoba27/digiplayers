@@ -4,7 +4,7 @@ export const platforms = [
     name: "Bplay",
     licensed: true,
     rating: 4.6,
-    bonus: "Bono destacado (editable)",
+    bonus: "Bono de bienvenida y primer deposito con giros extras",
     highlights: ["Alta conversión mobile", "Promos recurrentes", "Soporte para partners"],
     payments: ["Transferencia", "Mercado Pago"],
     logo: "img/bplaylogo.png",
