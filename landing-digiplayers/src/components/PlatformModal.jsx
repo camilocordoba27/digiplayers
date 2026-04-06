@@ -21,7 +21,28 @@ export default function PlatformModal({ platform, onClose }) {
         <div className="modalBody">
           <div className="modalGrid">
             <div className="panel" style={{ padding: 12 }}>
-              <h2 style={{ fontSize: 14, margin: 0 }}>Highlights</h2>
+              <h2 style={{ fontSize: 14, margin: 0 }}>Opciones</h2>
+              {platform.mode === "links" && platform.trackingLinks && (
+  <div style={{ marginTop: 20 }}>
+    <h3 style={{ fontSize: 14, marginBottom: 10 }}>
+      Elegí una opción para registrarte
+    </h3>
+
+    <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+      {platform.trackingLinks.map((link, i) => (
+        <a
+          key={i}
+          href={link.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          {link.name}
+        </a>
+      ))}
+    </div>
+  </div>
+)}
               <div style={{ marginTop: 8, color: "var(--muted)", lineHeight: 1.6, fontSize: 14 }}>
                 <ul style={{ margin: 0, paddingLeft: 18 }}>
                   {platform.highlights.map((item) => (

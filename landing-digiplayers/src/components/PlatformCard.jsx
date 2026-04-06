@@ -38,12 +38,12 @@ export default function PlatformCard({ platform, onOpenDetails }) {
 
         <div className="rightbox">
           <div className="ctaRow">
-            <button className="btn secondary" type="button" onClick={() => onOpenDetails(platform)}>
-              Detalles
+            <button
+              className="btn"
+              onClick={() => onOpenDetails({ ...platform, mode: "links" })}
+            >
+              Abrir
             </button>
-            <a className="btn" href={platform.openUrl} target="_blank" rel="noopener noreferrer">
-              Registrarse
-            </a>
           </div>
         </div>
       </div>
